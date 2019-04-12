@@ -1,0 +1,25 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 3,4,5 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+Analysing:  Percent_correct
+Datasets:   1
+Resultsets: 7
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       17/04/17 19:22
+
+
+Dataset                   (1) rules.Ze | (2) rules (3) trees (4) trees (5) trees (6) trees (7) trees
+----------------------------------------------------------------------------------------------------
+train_test_data4          (10)   68.53 |   73.73 v   88.04 v   88.25 v   88.40 v   88.55 v   88.60 v
+----------------------------------------------------------------------------------------------------
+                               (v/ /*) |   (1/0/0)   (1/0/0)   (1/0/0)   (1/0/0)   (1/0/0)   (1/0/0)
+
+
+Key:
+(1) rules.ZeroR '' 48055541465867954
+(2) rules.OneR '-B 6' -3459427003147861443
+(3) trees.J48 '-C 0.25 -M 2' -217733168393644444
+(4) trees.J48 '-C 0.2 -M 2' -217733168393644444
+(5) trees.J48 '-C 0.15 -M 2' -217733168393644444
+(6) trees.J48 '-C 0.1 -M 2' -217733168393644444
+(7) trees.J48 '-C 0.05 -M 2' -217733168393644444
+
